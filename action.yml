@@ -1,5 +1,6 @@
-name: 'Serverless with Python Requirements'
+name: 'gha sls with Python Requirements'
 description: 'Javascript action that runs a Serverless deploy using the serverless-python-requirements plugin.'
+author: 'yavinenana'
 inputs:
   args:
     default: ''
@@ -11,5 +12,5 @@ runs:
   main: 'index.js'
 
 branding:
-  icon: 'fast-forward'
+  icon: 'arrow-up-circle'
   color: 'red'
