@@ -7,7 +7,7 @@ serverless@2.72.3
 using:
 
       - name: Serverless Deploy
-        uses: yavinenana/gha-serverless-with-python-requirements@v1.2.2
+        uses: yavinenana/gha-serverless-with-python-requirements@v2.0.2
         with:
           args: '--stage qa --region $REGION'
         env:
