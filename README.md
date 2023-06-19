@@ -2,12 +2,12 @@
 Javascript action that runs a Serverless deploy using the serverless-python-requirements plugin.
 
 node version 16
-serverless@2.72.3
+serverless 3.32.2
 
 using:
 
       - name: Serverless Deploy
-        uses: yavinenana/gha-serverless-with-python-requirements@v2.0.3
+        uses: yavinenana/gha-serverless-with-python-requirements@v2.0.0
         with:
           args: '--stage qa --region $REGION'
         env:
